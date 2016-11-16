@@ -15,11 +15,11 @@ rr:subjectMap [
 ];
 
 rr:predicateObjectMap [
- rr:predicat ex:firstName;
+ rr:predicate ex:firstName;
  rr:objectMap [ rr:termType rr:Literal; rr:column "FirstName" ]
 ];
 
 rr:predicateObjectMap [
- rr:predicat ex:LastName;
+ rr:predicate ex:LastName;
  rr:objectMap [ rr:termType rr:Literal; rr:column "LastName" ]
 ] .
